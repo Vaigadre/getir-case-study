@@ -4,8 +4,7 @@
   "description": "A RESTful API with a single endpoint that fetches the data in the provided MongoDB collection and return the results in the requested format.",
   "main": "app.js",
   "scripts": {
-    "start": "npm run start",
-    "start:local": "export NODE_ENV=local || set \"NODE_ENV=local\"  && nodemon app",
+    "start": "export NODE_ENV=local || set \"NODE_ENV=local\"  && node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vaibhav",
