@@ -14,8 +14,14 @@ git clone git@github.com:Vaigadre/getir-case-study.git
 npm install
 ```
 
-### run the project
+### Run the project
 
 ```
-Run Project: npm run start:local
+npm run start
+```
+
+### Run unit tests
+
+```
+npm run test
 ```

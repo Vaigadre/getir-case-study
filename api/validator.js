@@ -2,8 +2,8 @@ const joi = require("@hapi/joi");
 
 // request body JOI validator schema
 module.exports.recordsReqObjSchema = joi.object({
-  startDate: joi.string().required(),
-  endDate: joi.string().required(),
+  startDate: joi.string().required().isoDate(),
+  endDate: joi.string().required().isoDate(),
   minCount: joi.number().strict(),
   maxCount: joi.number().strict()
 });
